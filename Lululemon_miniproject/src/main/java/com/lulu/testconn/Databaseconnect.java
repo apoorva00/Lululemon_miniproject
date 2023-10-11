@@ -12,9 +12,9 @@ public class Databaseconnect {
 
 			 Class.forName("com.mysql.cj.jdbc.Driver");
 
-	         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/aa",
+	         Connection connection = DriverManager.getConnection("my path",
 
-	             "root", "2029_Lulu_0501");
+	             "root", " ");
 
 	         Statement statement;
 
